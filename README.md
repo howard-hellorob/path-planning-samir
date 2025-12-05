@@ -39,7 +39,11 @@ python path_planner_cli.py -m [PATH/TO/MAP] --start [START_i START_j] --goal [GO
 ```bash
 # Test A* algorithm on maze1
 python3 path_planner_cli.py -m data/maze1.map --start 10 10 --goal 50 50 --algo astar
+```
 
+**A* Algorithm Demo Video**: Watch a demonstration of the A* path planning algorithm in action: [Google Drive Video](https://drive.google.com/file/d/1YjBsyd4LMe29a9l-XCTw-uWRbrITsDlI/view?usp=sharing)
+
+```bash
 # Test BFS on a different map
 python3 path_planner_cli.py -m data/maze2.map --start 5 5 --goal 30 30 --algo bfs
 
